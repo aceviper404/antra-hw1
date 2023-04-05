@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  text-align: center;
+  width: 80%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.container * {
+  margin: 0.2rem;
+}
+
+.name-container,
+.password-container {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.mobilenumber-container input,
+.email-container input {
+  box-sizing: border-box;
+}
+
+.termsandconditions-container {
+  font-size: small;
+  display: flex;
+  align-items: center;
+}
+.termsandconditions-container #bold {
+  font-weight: bold;
+  width: 40%;
+  display: flex;
+}
